@@ -1,0 +1,84 @@
+name: readrit
+description: A book review app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  lottie: ^2.7.0
+  syncfusion_flutter_pdfviewer: ^29.1.39
+  shared_preferences: ^2.0.15  # Add shared_preferences dependency for login data storage
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/book_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/book_logo.png
+
+    # Profile screen banner asset
+    - assets/profile_banner.jpg
+
+    # Engineering Graphics assets
+    - assets/egbook1.jpg
+    - assets/egbook2.webp
+    - assets/egbook3.jpg
+    - assets/egbook4.jpg
+    - assets/egbook5.jpeg
+    - assets/egbook.pdf.pdf
+
+    # Engineering Mathematics assets
+    - assets/enggmath1.jpeg
+    - assets/enggmath2.jpeg
+    - assets/enggmath3.webp
+    - assets/enggmath4.jpeg
+    - assets/enggmath5.jpeg
+    - assets/ilovepdf_merged-1.pdf
+
+    # Engineering Physics assets
+    - assets/physicsbook1.jpeg
+    - assets/physicsbook2.jpeg
+    - assets/physicsbook3.jpeg
+    - assets/physicsbook4.jpeg
+    - assets/physicsbook5.jpeg
+    - assets/engineeringphysics.pdf.pdf
+
+    # Engineering Chemistry assets
+    - assets/chemistrybook1.jpg
+    - assets/chemistrybook2.jpeg
+    - assets/chemistrybook3.jpeg
+    - assets/chemistrybook4.jpeg
+    - assets/chemistrybook5.jpeg
+    - assets/engineeringchemistry.pdf
+
+    # Python programming assets
+    - assets/pythonbook1.jpeg
+    - assets/pythonbook2.jpeg
+    - assets/pythonbook3.jpeg
+    - assets/pythonbook4.jpeg
+    - assets/pythonbook5.png
+    - assets/pythonprogramming.pdf
+
+    # C programming assets
+    - assets/cprogramming1.jpeg
+    - assets/cprogramming2.jpeg
+    - assets/cprogramming3.jpeg
+    - assets/cprogramming4.jpeg
+    - assets/cprogramming5.jpeg
+    - assets/cprogramming4.pdf

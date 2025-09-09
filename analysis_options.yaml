@@ -1,0 +1,37 @@
+# This file configures the Dart analyzer to enforce code quality rules.
+
+# Enable Flutter's recommended lints
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+  exclude:
+    - '**/*.g.dart'
+    - '**/*.freezed.dart'
+    - '**/*.gen.dart'
+    - '**/*.mocks.dart'
+    - 'build/**'
+
+linter:
+  rules:
+    avoid_print: true                    # Prefer using logging instead of print
+    always_specify_types: true           # Explicitly type variables and parameters
+    always_declare_return_types: true    # Specify return types for functions
+    prefer_single_quotes: true           # Use single quotes for strings
+    prefer_const_constructors: true      # Use const constructors when possible
+    prefer_const_literals_to_create_immutables: true # Use const for lists/maps/sets when possible
+    prefer_final_fields: true            # Use final for fields that are not reassigned
+    sort_constructors_first: true        # Place constructors before other members
+    prefer_final_locals: true            # Use final for local variables when possible
+    prefer_trailing_comma: true          # Use trailing commas in multi-line declarations
+    use_key_in_widget_constructors: true # Require keys in custom widgets
+    avoid_function_literals_in_foreach_calls: true
+    unnecessary_this: true
+    type_annotate_public_apis: true
+    avoid_unnecessary_containers: true
+    sized_box_for_whitespace: true
+    avoid_empty_else: true
+    avoid_redundant_argument_values: true
