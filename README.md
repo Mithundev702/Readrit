@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # readrit
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# Readrit
+A mobile reading app with splash screen, login/signup, home page, subject selection, book details, PDF reader, and review system.
+>>>>>>> 2aff96896c5ae8b3b68787fae998a4c76473fbd6
